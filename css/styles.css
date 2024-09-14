@@ -121,8 +121,16 @@ button {
 .hero {
   background-color: #2e2f42;
 }
+.hero-container {
+  /* display: flex;
+  flex-direction: column; */
+}
 
 .hero-h-one {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 469;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
