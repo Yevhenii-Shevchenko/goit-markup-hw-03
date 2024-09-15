@@ -165,6 +165,14 @@ button {
 /* -----  Hero  ------    */
 
 /* -----  Main  ----    */
+.benefits-list {
+  /* background-color: #404bbf; */
+
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 24px;
+}
+
 .benefits-h-three {
   font-weight: 500;
   font-size: 20px;
