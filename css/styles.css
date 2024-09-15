@@ -121,10 +121,11 @@ button {
 .hero {
   background-color: #2e2f42;
 }
-.hero-container {
-  /* display: flex;
-  flex-direction: column; */
-}
+
+/* .hero-container {
+  display: box;
+  flex-direction: column;
+} */
 
 .hero-h-one {
   font-weight: 700;
@@ -134,7 +135,8 @@ button {
   text-align: center;
   color: #fff;
   max-width: 496px;
-  margin-bottom: 48px;
+  padding-top: 128px;
+  padding-bottom: 48px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -144,11 +146,14 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  text-align: center;
   color: #fff;
   background-color: #4d5ae5;
   height: 56px;
-  min-width: 169px;
-  /* align-items: flex-start; */
+  border: radius 4px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .hero-button:hover,
