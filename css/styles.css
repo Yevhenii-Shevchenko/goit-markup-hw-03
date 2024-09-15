@@ -31,7 +31,7 @@ a {
 
 /* -----  common  ----- */
 .container {
-  max-width: 1128px;
+  max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -127,16 +127,16 @@ button {
 }
 
 .hero-h-one {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 469;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
+  margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-button {
@@ -146,6 +146,9 @@ button {
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
+  height: 56px;
+  min-width: 169px;
+  /* align-items: flex-start; */
 }
 
 .hero-button:hover,
