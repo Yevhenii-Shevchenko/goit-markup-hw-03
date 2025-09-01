@@ -138,7 +138,7 @@ button {
 /* ----------Header---------    */
 
 /* ----------Hero-----------    */
-.hero {
+.hero-section {
   background-color: #2e2f42;
   /* height: 600px; */
   display: flex;
@@ -218,7 +218,7 @@ button {
   color: #434455;
 }
 
-.team {
+.team-section {
   background-color: #f4f4fd;
 }
 
@@ -277,7 +277,7 @@ button {
 /* ----------------Main----------    */
 
 /* -------------Footer------------ */
-.footer {
+.footer-section {
   background-color: #2e2f42;
 }
 
