@@ -7,20 +7,6 @@ body {
   background-color: #fff;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 /*------reset-------*/
 ul,
 ol {
@@ -46,7 +32,7 @@ a {
 img {
   display: block;
 }
-/* ---------reset----------*/
+/* ---------/reset----------*/
 
 /* -------common-------- */
 .container {
@@ -54,6 +40,20 @@ img {
   padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /* --------Header--------    */
@@ -135,9 +135,9 @@ button {
 .contacts-link:focus {
   color: #404bbf;
 }
-/* ----------Header---------    */
+/* ----------/Header------------    */
 
-/* ----------Hero-----------    */
+/* ----------Hero--------------    */
 .hero-section {
   background-color: #2e2f42;
   /* height: 600px; */
@@ -184,9 +184,10 @@ button {
 .hero-button:focus {
   background-color: #404bbf;
 }
-/* -------------Hero------------    */
+/* -------------/Hero Style---------------    */
 
-/* -----------Main-------------    */
+/* -----------Main Style------------------    */
+/* -------------Our Benefits Style----------- */
 .benefits-list {
   /* background-color: #404bbf; */
   border: solid 1px teal;
@@ -217,7 +218,8 @@ button {
   letter-spacing: 0.02em;
   color: #434455;
 }
-
+/* -------------/Our Benefits Style----------- */
+/* -------------Our Team Style---------------- */
 .team-section {
   background-color: #f4f4fd;
 }
@@ -249,7 +251,9 @@ button {
   letter-spacing: 0.02em;
   color: #434455;
 }
+/* -------------/Our Team Style-------------- */
 
+/* -------------Our Portfolio Style----------- */
 .portfolio-h-two {
   font-weight: 700;
   font-size: 36px;
@@ -274,9 +278,10 @@ button {
   letter-spacing: 0.02em;
   color: #434455;
 }
-/* ----------------Main----------    */
+/* -------------/Our Portfolio Style----------- */
+/* ----------------/Main Style---------------   */
 
-/* -------------Footer------------ */
+/* ----------------Footer Style--------------------*/
 .footer-section {
   background-color: #2e2f42;
 }
