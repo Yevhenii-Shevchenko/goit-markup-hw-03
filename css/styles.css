@@ -140,6 +140,9 @@ button {
 /* ----------Hero--------------    */
 .hero-section {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
+
   /* height: 600px; */
   /* display: flex; */
 }
@@ -157,7 +160,6 @@ button {
   text-align: center;
   color: #fff;
   max-width: 496px;
-  padding-top: 188px;
   padding-bottom: 48px;
   margin-left: auto;
   margin-right: auto;
@@ -177,7 +179,6 @@ button {
   min-width: 169px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 188px;
   display: block;
 }
 
