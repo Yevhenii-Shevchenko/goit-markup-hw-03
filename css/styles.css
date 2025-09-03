@@ -42,8 +42,8 @@ img {
   margin-right: auto;
 }
 .section-padding {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .visually-hidden {
   position: absolute;
@@ -187,7 +187,7 @@ button {
 /* -------------Our Benefits Style----------- */
 .benefits-section {
   padding-top: 120px;
-  padding-bottom: 60px;
+  padding-bottom: 120px;
 }
 .benefits-list {
   /* background-color: #404bbf; */
@@ -235,6 +235,7 @@ button {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .team-list {
