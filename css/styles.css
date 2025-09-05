@@ -42,8 +42,8 @@ img {
   margin-right: auto;
 }
 .section-padding {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .visually-hidden {
   position: absolute;
@@ -186,8 +186,6 @@ button {
 /* -----------Main Style------------------    */
 /* -------------Our Benefits Style----------- */
 .benefits-section {
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 .benefits-list {
   /* background-color: #404bbf; */
@@ -221,8 +219,6 @@ button {
 /* ------------Our Team Style---------------- */
 .team-section {
   background-color: #f4f4fd;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .team-item {
@@ -278,8 +274,6 @@ button {
 
 /* -------------Our Portfolio Style----------- */
 .portfolio-section {
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .portfolio-h-two {
