@@ -301,11 +301,16 @@ button {
 }
 
 .portfolio-item {
-  width: calc((100%-72) / 4);
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-item-img {
-  margin-bottom: 32px;
+}
+
+.portfolio-item-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio-h-thee {
@@ -338,7 +343,7 @@ button {
 }
 
 .footer-logo {
-  display: block;
+  display: inline-block;
   margin-bottom: 16px;
 }
 
